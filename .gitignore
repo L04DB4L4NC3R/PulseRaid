@@ -1,2 +1,5 @@
 userData.pkl
 trial.ipynb
+.env
+venv
+*.pyc

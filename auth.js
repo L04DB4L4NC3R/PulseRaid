@@ -1,5 +1,10 @@
 var request = require('request');
-//Put var payload = "clientid:clientsecret";
+
+// upstream client ID and Secret. Not L04DB4L4NC3R's
+var client_id='acd89ea2ad144fcb9569c4605e8d9a6d'
+var client_secret='61c7190fe8b24b6b947a24c6d8e250c8'
+var payload = `${client_id}:${client_secret}`
+
 var encodedPayload = new Buffer(payload).toString("base64");
 var token;
 
